@@ -24,4 +24,56 @@ left = \relative c {
   d,8 a' d\( e fis gis a e\) |
   fis,8 cis' fis gis ais b fis cis |
   d,8 a' d\( e fis gis a e\) |
+
+  fis=4 \change Staff = "right" \voiceTwo cis' fis2 | \change Staff = "left" \oneVoice
+  g,=4 \change Staff = "right" \voiceTwo d' g2 | \change Staff = "left" \oneVoice
+  fis,=4 \change Staff = "right" \voiceTwo cis' fis2 | \change Staff = "left" \oneVoice
+  g,=4 \change Staff = "right" \voiceTwo d' g2 | \change Staff = "left" \oneVoice
+
+  fis,=8_\( \change Staff = "right" \voiceTwo cis' fis gis ais b fis cis\) | \change Staff = "left" \oneVoice
+  g_\( \change Staff = "right" \voiceTwo d' g a b cis d a\) | \change Staff = "left" \oneVoice
+  fis,=8_\( \change Staff = "right" \voiceTwo cis' fis gis ais b fis cis\) | \change Staff = "left" \oneVoice
+  g \change Staff = "right" \voiceTwo d' g a b cis d a | \change Staff = "left" \oneVoice
+
+  g,=8 \change Staff = "right" \voiceTwo d' g a g, d' g a | \change Staff = "left" \oneVoice
+  g,_\( \change Staff = "right" \voiceTwo d' g a b cis d a\) | \change Staff = "left" \oneVoice
+
+  <b,,,=,, b'>4 <b' fis' b> q q |
+  <g, g'> <g' d' g> <g d'> q |
+  <b, b'> <b' fis' b> q q |
+  <g,=,, g'>  <g' d' g> q q |
+
+  <b,=,, b'> <b' fis' b> q q |
+  <g,=,, g'> <g' d' g> q q |
+  <b, b'> <b' fis' b> q q |
+  <g, g'> <g' d' g> q q |
+
+  <b,=,, b'>1 |
+
+  \bar "||"
+
+  r1 |
+
+  e'=8 b' dis\( cis e b gis e\) |
+  cis gis' cis\( b dis ais fis dis\) |
+  e=8 b' dis\( cis e b gis e\) |
+  cis gis' cis\( b dis ais fis dis\) |
+
+  b=,4 fis' b2 |
+  d,4 a' d2 |
+  b,=,4 fis' b2 |
+  d,4 a' d2 |
+
+  b=8_\( \change Staff = "right" \voiceTwo fis' b a g fis e dis |
+  d fis a g fis e d cis\) | \change Staff = "left" \oneVoice
+  b=_\( \change Staff = "right" \voiceTwo fis' b a g fis e dis |
+  d fis a g fis e d cis\) | \change Staff = "left" \voiceOne
+
+  b=1 |
+  \change Staff = "right" \voiceTwo <d fis a>1 | \change Staff = "left"\oneVoice
+
+  \bar "||"
+
+  fis,,=,4 <cis'= ais'> q q |
+
 }
