@@ -74,6 +74,37 @@ right = \relative c' {
 
   \bar "||"
 
-  r4 <e,,=' fis ais dis> <e fis ais cis>2 |
+  r4 <e,,=' fis ais dis>\( <e fis ais cis>2\) |
+  r4 <c=' e fis b>\( <c e fis a>2\) |
+
+  \tempo "Animato" 4 = 120
+  r4 \tuplet 3/2 { <e=' fis ais dis>8\( q q } <e fis ais cis>4 q\) |
+  r4 \tuplet 3/2 { <c=' e fis b>8\( q q } <c e fis a>4 q\) |
+
+  r4 \tuplet 3/2 { <e=' fis ais dis>8\( q q } <e fis ais cis>4 <fis ais cis fis> |
+  <gis=' c e gis>2 <a c e a>\) |
+  <b=' dis fis b>4\( \tuplet 6/4 { b''='''16 fis dis b fis dis } <cis'=''' cis, dis fis>2\) |
+  <d,='' fis bes d>4\( \tuplet 6/4 { d''16 bes fis d bes fis } <e fis bes e>2\) |
+
+  <e='' fis ais dis>2\( <e fis ais cis>4 fis |
+  <c e fis b>2 \tuplet 7/4 { a'=''16 fis e c a fis e } c4\) |
+  <e=' fis ais dis>2\( <e fis ais cis>4 fis |
+  <c e fis b>2 <c=' e fis a> |
+  <c=' e fis b>2 <e fis d'>4 <c e fis a> |
+
+  <b e gis>1 |
+  <a= c e>1\) |
+  <b e gis>2\( a'4 b |
+  <a, c g'>4 fis' e c |
+
+  \change Staff = "left" \voiceOne <e,= gis b>2\) a4\( gis |
+  <a,=, c g'>4 fis' e c |
+  <gis=, b>1\) |
+  \change Staff = "right" <e''=' gis b>1 |
+
+  <b'=' e gis b>4\fermata ais' b gis |
+  <gis, b e>1 |
+
+  \fine
 
 }

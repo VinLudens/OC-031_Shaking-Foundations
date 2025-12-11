@@ -75,5 +75,36 @@ left = \relative c {
   \bar "||"
 
   fis,,=,4 <cis'= ais'> q q |
+  d,=, <a' fis'> q q |
+
+
+  fis=,4 \tuplet 3/2 { <cis' ais'>8 q q } q4 q |
+  d,=,4 \tuplet 3/2 { <a' fis'>8 q q } q4 q |
+
+  <fis,=,, fis'>4 \tuplet 3/2 { <cis'' ais'>8 q q } q4 <fis,, fis'> |
+  <d=,, d'>4 <d'' fis a> <fis a d> <d, d'> |
+  <gis,=,, gis'> <gis'' b> <gis b dis> <gis,, gis'> |
+  <g g'> <g'' bes d> <bes d g> <g,, g'> |
+
+  <fis=,, fis'> <cis'' ais'> <fis cis'> <cis ais'> |
+  <d,,=,, d'> <d'' a'> <fis c'> <d a'> |
+  <fis,,=,, fis'> <cis'' ais'> <fis cis'> <cis ais'>
+  <d,,=,, d'>4 <a'' fis'>2 q4 |
+  <d,, d'>4 <a'' fis'>2 q4 |
+
+  <e,=,, e'>1 |
+  <c=,, c'> |
+  <e=,, e'> |
+  <c=,, c'> |
+
+  \voiceTwo <e=,, e'>1 |
+  <c=,, c'> |
+  <e=,, e'> |
+  <e''= b'> |
+
+  <b' e>4 ais b gis |
+  <e b' e>1 |
+
+  \fine
 
 }
